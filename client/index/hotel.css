@@ -1,0 +1,316 @@
+.hotel_left{
+	width: 10%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-image: url(/hotel_left.png);
+	background-repeat: no-repeat;
+	background-size: 16px 12px;
+	background-position: 50% 16px;
+}
+
+.hotel_right{
+	width: 10%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	background-image: url(/hotel_right.png);
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 50% 14px;
+}
+
+.hotel_nav{
+	width: 75px;
+	height: 76px;
+	position: fixed;
+	top: 44px;
+	right: 0;
+	background-color: #958375;
+	display: none;
+}
+
+.hotel_nav_term{
+	width: 100%;
+	line-height: 38px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding-left: 15px;
+}
+
+.hnt_theme{
+	background-image: url(/hnt_theme.png);
+	background-repeat: no-repeat;
+	background-size: 12px 10px;
+	background-position: 7px 14px;
+}
+
+.hnt_activity{
+	background-image: url(/hnt_activity.png);
+	background-repeat: no-repeat;
+	background-size: 11px 13px;
+	background-position: 7px 12px;
+}
+
+.hotel_picture{
+	width: 100%;
+	height: 210px;
+	background-image: url(/hotel_picture.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hotel_picture_button{
+	width: 32%;
+	height: 39px;
+	background-color: rgba(255, 255, 255, 0.2);
+	float: left;
+	font-size: 15px;
+	color: #fff;
+	line-height: 39px;
+	text-align: center;
+	margin-top: 171px;
+}
+
+.hpb_spaceing{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.hotel{
+	width: 100%;
+	height: 100%;
+	padding: 0 10px 10px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.hotel_portrait{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 997;
+	background-image: url(/hotel_portrait.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.hotel_people{
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #958375;
+	line-height: 20px;
+}
+
+.hotel_time{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #958375;
+	line-height: 20px;
+}
+
+.hotel_theme{
+	float: right;
+	font-size: 14px;
+	color: #958375;
+	line-height: 20px;
+}
+
+.hotel_half{
+	width: 100%;
+	height: 18px;
+}
+
+.hotel_half_bg{
+	height: 10px;
+	background-color: #fff;
+}
+
+.hotel_info{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	padding-right: 10px;
+	overflow: hidden;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hotel_info_name{
+	width: 100%;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-left: 10px;
+}
+
+.hotel_info_detail{
+	width: 100%;
+	line-height: 20px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-left: 10px;
+}
+
+.hotel_info_picture{
+	width: 100%;
+	height: 100%;
+	margin: 10px 0;
+}
+
+.hotel_info_img{
+	width: 37px;
+	height: 37px;
+	float: left;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hii1{
+	background-image: url(/hii1.png);
+}
+
+.hii2{
+	background-image: url(/hii2.png);
+}
+
+.hotel_button{
+	width: 37px;
+	line-height: 20px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+	background-repeat: no-repeat;
+}
+
+.hotel_see{
+	clear: left;
+	margin-left: 10px;
+	background-image: url(/hotel_see.png);
+	background-size: 12px 10px;
+	background-position: 0 4px;
+}
+
+.hotel_zambia{
+	background-image: url(/hotel_zambia.png);
+	background-size: 12px 10px;
+	background-position: 0 5px;
+}
+
+.hotel_comment{
+	background-image: url(/hotel_comment.png);
+	background-size: 12px 12px;
+	background-position: 0 4px;
+}
+
+/*----------------侧边栏---------------------*/
+.hotel_sidebar{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	display: none;
+}
+
+.sidebar{
+	width: 75%;
+	height: 100%;
+	float: left;
+	background-color: #f1efe9;
+}
+
+.sidebar_header{
+	width: 100%;
+	height: 140px;
+	border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+.sidebar_header_portrait{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 25px;
+	background-image: url(/sidebar_header_portrait.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sidebar_header_name{
+	width: 100%;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin-top: 15px;
+}
+
+.sidebar_my{
+	width: 100%;
+	padding: 20px 10px;
+}
+
+.sidebar_my_wealth{
+	width: 100%;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.5);
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+}
+
+.sidebar_my_order{
+	background-image: url(/sidebar_my_order.png);
+	background-size: 12px 14px;
+	background-position: 8px 8px;
+}
+
+.sidebar_my_activity{
+	background-image: url(/sidebar_my_activity.png);
+	background-size: 15px 14px;
+	background-position: 8px 8px;
+}
+
+.sidebar_my_wallet{
+	background-image: url(/sidebar_my_wallet.png);
+	background-size: 15px;
+	background-position: 8px 7.5px;
+}
+
+.sidebar_my_vouchers{
+	background-image: url(/sidebar_my_vouchers.png);
+	background-size: 14px 12px;
+	background-position: 8px 9px;
+}
+
+.sidebar_right{
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color: #000;
+	opacity: 0.6;
+}

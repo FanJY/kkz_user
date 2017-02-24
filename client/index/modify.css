@@ -1,0 +1,53 @@
+.modify{
+	width: 100%$;
+	height: 100%;
+	background-color: #f1efe9;
+	padding: 20px;
+}
+
+.modify_portrait{
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	border-radius: 50%;
+	background-image: url(/sidebar_header_portrait.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.modify_portrait_input{
+	width: 100%;
+	height: 100px;
+	opacity: 0;
+}
+
+.modify_term{
+	width: 100%;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.modify_term_title{
+	float: left;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.modify_term_content{
+	float: right;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.modify_term_input{
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	padding-right: 10px;
+	border: 0;
+	background-color: #f1efe9;
+	-webkit-appearance: none;
+}

@@ -1,0 +1,77 @@
+.launch_activity{
+	width: 100%;
+	height: 100%;
+	padding: 0 10px 20px;
+	background-color: #f1efe9;
+	overflow: hidden;
+}
+
+.launch_activity_title{
+	width: 100%;
+	line-height: 30px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+}
+
+.launch_activity_content{
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+.launch_activity_input{
+	width: 95%;
+	height: 100%;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	padding-left: 10px;
+	border: 0;
+	background-color: #f1efe9;
+	-webkit-appearance: none;
+}
+
+.launch_activity_textarea{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+.la_textarea{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	padding: 5px 10px;
+	border: 0;
+	background-color: #f1efe9;
+	-webkit-appearance: none;
+}
+
+.launch_activity_img{
+	width: 59px;
+	height: 59px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	background-color: pink;
+}
+
+.launch_activity_img_add{
+	width: 59px;
+	height: 59px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	background-image: url(/launch_activity_img_add.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ali_add{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	-webkit-appearance: none;
+}

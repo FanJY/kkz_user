@@ -1,0 +1,76 @@
+.header_share{
+	width: 10%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-image: url(/header_share.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+
+.activity{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	padding: 0 10px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.activity_name{
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.activity_time{
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: 18px;
+}
+
+.activity_info{
+	width: 100%;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 12px;
+	clear: left;
+}
+
+.activity_content{
+	width: 100%;
+	line-height: 20px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+}
+
+.activity_img{
+	width: 100%;
+	height: 130px;
+	background-image: url(/index_beijing.png);
+	background-repeat: no-repeat;
+	background-size: caver;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.activity_comment{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	padding: 10px;
+	clear: both;
+	overflow: hidden;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.activity_comment_name{
+	line-height: 20px;
+	font-size: 12px;
+	color: #958375;
+}

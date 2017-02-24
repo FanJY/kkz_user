@@ -1,0 +1,63 @@
+.header{
+	width: 100%;
+	height: 44px;
+	background-color: #958375;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+}
+
+.header_left{
+	width: 10%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-image: url(/header_left.png);
+	background-repeat: no-repeat;
+	background-size: 13px 16px;
+	background-position: center;
+}
+
+.header_right{
+	width: 15%;
+	line-height: 44px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.index{
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-size: 17px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.index_beijing{
+	background-image: url(/index_yunnan.png);
+}
+
+.index_yunnan{
+	background-image: url(/index_beijing.png);
+}
+
+.index_tenggeli{
+	background-image: url(/index_yunnan.png);
+}

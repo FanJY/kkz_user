@@ -1,0 +1,58 @@
+.theme_name{
+	width: 100%;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.theme_content{
+	width: 100%;
+	line-height: 20px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.hotel_footer{
+	width: 100%;
+	height: 44px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 998;
+	-webkit-backdrop-filter: blur(22px);
+	backdrop-filter: blur(22px);
+	background-color: #958375;
+	box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+	padding: 0 10px;
+}
+
+.hotel_footer_send{
+	width: 10%;
+	text-align: center;
+	line-height: 44px;
+	margin-left: 15px;
+	font-size: 15px;
+	color: #fff;
+	float: right;
+}
+
+.hotel_footer_comment{
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px #c7c7cc solid;
+	float: right;
+	margin-top: 7px;
+}
+
+.hotel_footer_input{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: #fafafa;
+	border: 0;
+	padding-left: 10px;
+	font-size: 17px;
+	color: rgba(0, 0, 0, 0.3);
+	letter-spacing: -0.8px;
+}

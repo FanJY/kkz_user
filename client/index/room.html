@@ -1,0 +1,115 @@
+<template name="room">
+	<div class="header">
+		<a href="/hotel">
+			<div class="header_left"></div>
+		</a>
+		客房
+	</div>
+	<div class="top_top"></div>
+	<div class="room_banner">轮播图</div>
+	<div class="room">
+		<div class="room_name">北京瑞莱特国际酒店</div>
+		<div class="room_place">雍和宫青龙胡同18号，东城区，北京</div>
+		<div class="room_live">入住日期</div>
+		<div class="room_live">入住天数</div>
+		<div class="room_live">入住人数</div>
+	</div>
+	<div class="room_type">
+		<div class="room_type_specific" data-for="standard_number">
+			<div class="room_type_name">精品标间</div>
+			<div class="room_type_3d"></div>
+			<div class="room_type_money">
+				<div class="rtm_number" id="standard_number">
+					<div class="rtm_button rtm_reduce">
+						<div class="rtmb_child">-</div>
+					</div>
+					<input class="rtm_input" type="tel" value="1" readonly="true">
+					<div class="rtm_button rtm_plus">
+						<div class="rtmb_child">+</div>
+					</div>
+				</div>
+				<div class="rtm_word">CN￥256.00</div>
+			</div>
+		</div>
+		<div class="room_type_specific rts_border" data-for="double_number">
+			<div class="room_type_name">标准双人房</div>
+			<div class="room_type_3d"></div>
+			<div class="room_type_money">
+				<div class="rtm_number" id="double_number">
+					<div class="rtm_button rtm_reduce">
+						<div class="rtmb_child">-</div>
+					</div>
+					<input class="rtm_input" type="tel" value="1" readonly="true">
+					<div class="rtm_button rtm_plus">
+						<div class="rtmb_child">+</div>
+					</div>
+				</div>
+				<div class="rtm_word">CN￥256.00</div>
+			</div>
+		</div>
+		<div class="room_type_specific" data-for="big_number">
+			<div class="room_type_name">精品大床房</div>
+			<div class="room_type_3d"></div>
+			<div class="room_type_money">
+				<div class="rtm_number" id="big_number">
+					<div class="rtm_button rtm_reduce">
+						<div class="rtmb_child">-</div>
+					</div>
+					<input class="rtm_input" type="tel" value="1" readonly="true">
+					<div class="rtm_button rtm_plus">
+						<div class="rtmb_child">+</div>
+					</div>
+				</div>
+				<div class="rtm_word">CN￥256.00</div>
+			</div>
+		</div>
+	</div>
+	<div class="room_nav">
+		<div class="room_nav_term room_style" data-for="rn_info">酒店信息</div>
+		<div class="room_nav_term" data-for="rn_facilities">酒店设施</div>
+		<div class="rn_content room_nav_info" id="rn_info">
+			<div class="room_info_content">北京瑞莱特国际酒店酒店位于雍和宫青龙胡同，坐拥曼妙的湖景，近雁栖园，蓝天牧场，周边环境幽雅静谧，景致秀美宜人。</div>
+			<div class="room_info_reserve">预定电话：<span>010 - 69618888</span></div>
+			<div class="room_info_reserve">微信帐号：<span>kaibinsiji</span></div>
+		</div>
+		<div class="rn_content room_nav_facilities" id="rn_facilities">
+			<div class="rnf_content">
+				<div class="rnf_icon rnca_s1"></div>
+				<div class="rnf_icon rnca_s2"></div>
+				<div class="rnf_icon rnca_s3"></div>
+				<div class="rnf_icon rnca_s4"></div>
+				<div class="rnf_icon rnca_s5"></div>
+				<div class="rnf_icon rnca_s6"></div>
+				<div class="rnf_icon rnca_s7"></div>
+				<div class="rnf_icon rnca_s8"></div>
+				<div class="rnf_icon rnca_s9"></div>
+				<div class="rnf_icon rnca_s10"></div>
+				<div class="rnf_icon rnca_s11"></div>
+			</div>
+			<div class="rnf_down"></div>
+		</div>
+	</div>
+	<div class="room_comment">
+		<div class="room_comment_title">酒店评价(123)</div>
+		<div class="room_comment_content">
+			<div class="rcc_portrait"></div>
+			<div class="rcc_name">特立独行的MR</div>
+			<div class="rcc_time">2015-11-20</div>
+			<div class="rcc_star">
+				<img src="/rcc_star.png" class="rcc_star_img">
+				<img src="/rcc_star.png" class="rcc_star_img">
+				<img src="/rcc_star.png" class="rcc_star_img">
+				<img src="/rcc_star.png" class="rcc_star_img">
+			</div>
+			<div class="rcc_content">酒店交通便利，出门就是地铁，附近也有很多美食。这里有健身房，温泉之类的可以好好享受假期。</div>
+		</div>
+		
+		<a href="/whole_center">
+			<div class="rcc_whole">
+				<div class="rcc_whole_center">查看全部评价</div>
+			</div>
+		</a>
+		
+	</div>
+	<div class="room_reserve">预定房间</div>
+</template>
